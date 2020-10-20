@@ -1,3 +1,2 @@
 RewriteEngine on
-DirectoryIndex public/index.php
-RewriteRule ^assets/(.*) public/assets/$1
+RewriteRule ^(.*) public/$1
