@@ -1,0 +1,32 @@
+.LinksButton {
+  &.active {
+    font-weight: 600;
+  }
+
+  // This prevents the links from changing width when they become bold
+  // by having an invisible copy of the text already in bold
+  // based on https://stackoverflow.com/a/20249560/3133038
+  &::after {
+    display: block;
+    content: attr(title);
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+  }
+
+  + .Dropdown-toggle {
+    width: auto;
+    margin-right: 10px;
+  }
+}
+
+li > .LinksButton:hover, .LinksButton.SplitDropdown-button:hover {
+  text-decoration: underline;
+}
+
+@media @phone {
+  .SplitDropdown-button {
+    width: calc(100% - 8.75px) !important;
+  }
+}
