@@ -8,6 +8,7 @@ class ComposerStaticInitda3736d36b8a9e2f68c5d75e9a898c2e
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        '5255c38a0faeba867671b61dfda6d864' => __DIR__ . '/..' . '/paragonie/random_compat/lib/random.php',
         'e69f7f6ee287b969198c3c9d6777bd38' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/bootstrap.php',
         '023d27dca8066ef29e6739335ea73bad' => __DIR__ . '/..' . '/symfony/polyfill-php70/bootstrap.php',
         '25072dd6e2470089de65ae7bf11d3109' => __DIR__ . '/..' . '/symfony/polyfill-php72/bootstrap.php',
@@ -50,6 +51,7 @@ class ComposerStaticInitda3736d36b8a9e2f68c5d75e9a898c2e
         '84245cb95409c51c4ae97f8e59da883a' => __DIR__ . '/..' . '/flarum/core/src/helpers.php',
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
+        'e39a8b23c42d4e1452234d762b03835a' => __DIR__ . '/..' . '/ramsey/uuid/src/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -104,10 +106,12 @@ class ComposerStaticInitda3736d36b8a9e2f68c5d75e9a898c2e
             'Symfony\\Component\\CssSelector\\' => 30,
             'Symfony\\Component\\Console\\' => 26,
             'Symfony\\Component\\Config\\' => 25,
+            'SoftCreatR\\MimeDetector\\' => 24,
         ),
         'R' => 
         array (
             'ReFlar\\CookieConsent\\' => 21,
+            'Ramsey\\Uuid\\' => 12,
         ),
         'P' => 
         array (
@@ -177,6 +181,7 @@ class ComposerStaticInitda3736d36b8a9e2f68c5d75e9a898c2e
             'FoF\\UserRequest\\' => 16,
             'FoF\\UserDirectory\\' => 18,
             'FoF\\UserBio\\' => 12,
+            'FoF\\Upload\\' => 11,
             'FoF\\Terms\\' => 10,
             'FoF\\Spamblock\\' => 14,
             'FoF\\Sitemap\\' => 12,
@@ -191,6 +196,7 @@ class ComposerStaticInitda3736d36b8a9e2f68c5d75e9a898c2e
             'FoF\\Drafts\\' => 11,
             'FoF\\Console\\' => 12,
             'FoF\\Components\\' => 15,
+            'FoF\\BestAnswer\\' => 15,
             'FoF\\BanIPs\\' => 11,
             'FoF\\Analytics\\' => 14,
             'Flarum\\Tags\\' => 12,
@@ -374,9 +380,17 @@ class ComposerStaticInitda3736d36b8a9e2f68c5d75e9a898c2e
         array (
             0 => __DIR__ . '/..' . '/symfony/config',
         ),
+        'SoftCreatR\\MimeDetector\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/softcreatr/php-mime-detector/src/SoftCreatR/MimeDetector',
+        ),
         'ReFlar\\CookieConsent\\' => 
         array (
             0 => __DIR__ . '/..' . '/reflar/cookie-consent/src',
+        ),
+        'Ramsey\\Uuid\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/ramsey/uuid/src',
         ),
         'Psr\\SimpleCache\\' => 
         array (
@@ -576,6 +590,10 @@ class ComposerStaticInitda3736d36b8a9e2f68c5d75e9a898c2e
         array (
             0 => __DIR__ . '/..' . '/fof/user-bio/src',
         ),
+        'FoF\\Upload\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/upload/src',
+        ),
         'FoF\\Terms\\' => 
         array (
             0 => __DIR__ . '/..' . '/fof/terms/src',
@@ -631,6 +649,10 @@ class ComposerStaticInitda3736d36b8a9e2f68c5d75e9a898c2e
         'FoF\\Components\\' => 
         array (
             0 => __DIR__ . '/..' . '/fof/components/src',
+        ),
+        'FoF\\BestAnswer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/best-answer/src',
         ),
         'FoF\\BanIPs\\' => 
         array (

@@ -399,17 +399,17 @@
     },
     {
         "name": "doctrine/dbal",
-        "version": "2.11.2",
-        "version_normalized": "2.11.2.0",
+        "version": "2.11.3",
+        "version_normalized": "2.11.3.0",
         "source": {
             "type": "git",
             "url": "https://github.com/doctrine/dbal.git",
-            "reference": "b88a45cbc395e850b2d958dcd7b9d49d09ff23e0"
+            "reference": "fb5d5f2f26babf8dce217b1eb88300c22bb703a4"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/doctrine/dbal/zipball/b88a45cbc395e850b2d958dcd7b9d49d09ff23e0",
-            "reference": "b88a45cbc395e850b2d958dcd7b9d49d09ff23e0",
+            "url": "https://api.github.com/repos/doctrine/dbal/zipball/fb5d5f2f26babf8dce217b1eb88300c22bb703a4",
+            "reference": "fb5d5f2f26babf8dce217b1eb88300c22bb703a4",
             "shasum": ""
         },
         "require": {
@@ -430,7 +430,7 @@
         "suggest": {
             "symfony/console": "For helpful console commands such as SQL execution and import of files."
         },
-        "time": "2020-10-19T02:01:37+00:00",
+        "time": "2020-10-20T14:36:48+00:00",
         "bin": [
             "bin/doctrine-dbal"
         ],
@@ -490,6 +490,20 @@
             "sqlite",
             "sqlserver",
             "sqlsrv"
+        ],
+        "funding": [
+            {
+                "url": "https://www.doctrine-project.org/sponsorship.html",
+                "type": "custom"
+            },
+            {
+                "url": "https://www.patreon.com/phpdoctrine",
+                "type": "patreon"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/doctrine%2Fdbal",
+                "type": "tidelift"
+            }
         ]
     },
     {
@@ -924,17 +938,17 @@
     },
     {
         "name": "filp/whoops",
-        "version": "2.8.0",
-        "version_normalized": "2.8.0.0",
+        "version": "2.9.0",
+        "version_normalized": "2.9.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/filp/whoops.git",
-            "reference": "fa50d9db1c0c2fae99cf988d27023effda5524a3"
+            "reference": "2ec31f3adc54c71a59c5e3c2143d7a0e2f8899f8"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/filp/whoops/zipball/fa50d9db1c0c2fae99cf988d27023effda5524a3",
-            "reference": "fa50d9db1c0c2fae99cf988d27023effda5524a3",
+            "url": "https://api.github.com/repos/filp/whoops/zipball/2ec31f3adc54c71a59c5e3c2143d7a0e2f8899f8",
+            "reference": "2ec31f3adc54c71a59c5e3c2143d7a0e2f8899f8",
             "shasum": ""
         },
         "require": {
@@ -950,7 +964,7 @@
             "symfony/var-dumper": "Pretty print complex values better with var-dumper available",
             "whoops/soap": "Formats errors as SOAP responses"
         },
-        "time": "2020-10-17T09:00:00+00:00",
+        "time": "2020-10-20T12:00:00+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2158,6 +2172,82 @@
         ]
     },
     {
+        "name": "fof/best-answer",
+        "version": "0.1.11",
+        "version_normalized": "0.1.11.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/FriendsOfFlarum/best-answer.git",
+            "reference": "077710f16fb3066b2b5e24f59ef7f1af53cc6360"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/FriendsOfFlarum/best-answer/zipball/077710f16fb3066b2b5e24f59ef7f1af53cc6360",
+            "reference": "077710f16fb3066b2b5e24f59ef7f1af53cc6360",
+            "shasum": ""
+        },
+        "require": {
+            "flarum/core": "^0.1.0-beta.13",
+            "fof/components": ">=0.1.0",
+            "fof/console": "^0.5.3"
+        },
+        "replace": {
+            "wiwatsrt/flarum-ext-best-answer": "*"
+        },
+        "time": "2020-06-16T09:49:58+00:00",
+        "type": "flarum-extension",
+        "extra": {
+            "flarum-extension": {
+                "title": "FoF Best Answer",
+                "icon": {
+                    "name": "far fa-comment-dots",
+                    "backgroundColor": "#e74c3c",
+                    "color": "#fff"
+                }
+            },
+            "flagrow": {
+                "discuss": "https://discuss.flarum.org/d/21894"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "FoF\\BestAnswer\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Wiwat Srisattha",
+                "email": "wiwat@srisattha.com",
+                "role": "Developer (Original)"
+            },
+            {
+                "name": "David Sevilla Martin",
+                "email": "me+fof@datitisev.me",
+                "role": "Developer"
+            },
+            {
+                "name": "Ian Morland",
+                "email": "ian@flarumite.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "Mark a post as the best answer in a discussion",
+        "keywords": [
+            "flarum"
+        ],
+        "funding": [
+            {
+                "url": "https://opencollective.com/fof",
+                "type": "open_collective"
+            }
+        ]
+    },
+    {
         "name": "fof/components",
         "version": "0.1.1",
         "version_normalized": "0.1.1.0",
@@ -2990,6 +3080,85 @@
         ]
     },
     {
+        "name": "fof/upload",
+        "version": "0.10.0",
+        "version_normalized": "0.10.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/FriendsOfFlarum/upload.git",
+            "reference": "c21fab65ce6dc6cf696de88da1359f58d59a36ca"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/FriendsOfFlarum/upload/zipball/c21fab65ce6dc6cf696de88da1359f58d59a36ca",
+            "reference": "c21fab65ce6dc6cf696de88da1359f58d59a36ca",
+            "shasum": ""
+        },
+        "require": {
+            "flarum/core": ">=0.1.0-beta.12 <0.1.0-beta.14",
+            "guzzlehttp/guzzle": "^6.0",
+            "ramsey/uuid": "^3.5.2",
+            "softcreatr/php-mime-detector": "^3.0"
+        },
+        "replace": {
+            "flagrow/upload": "*"
+        },
+        "require-dev": {
+            "league/flysystem-aws-s3-v3": "^1.0",
+            "overtrue/flysystem-qiniu": "1.0.4"
+        },
+        "suggest": {
+            "league/flysystem-aws-s3-v3": "Uploads to AWS S3 using API version 3.",
+            "overtrue/flysystem-qiniu": "Uploads to QiNiu using API."
+        },
+        "time": "2020-08-04T23:16:17+00:00",
+        "type": "flarum-extension",
+        "extra": {
+            "flarum-extension": {
+                "title": "FoF Upload",
+                "icon": {
+                    "image": "resources/logo.svg",
+                    "backgroundColor": "#e74c3c",
+                    "backgroundSize": "90%",
+                    "backgroundRepeat": "no-repeat",
+                    "backgroundPosition": "center"
+                }
+            },
+            "flagrow": {
+                "discuss": "https://discuss.flarum.org/d/4154"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "FoF\\Upload\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Daniël Klabbers",
+                "email": "daniel@klabbers.email",
+                "homepage": "https://luceos.com/"
+            }
+        ],
+        "description": "The file upload extension for the Flarum forum with insane intelligence.",
+        "keywords": [
+            "file",
+            "flarum",
+            "upload"
+        ],
+        "funding": [
+            {
+                "url": "https://opencollective.com/fof",
+                "type": "open_collective"
+            }
+        ]
+    },
+    {
         "name": "fof/user-bio",
         "version": "0.2.0",
         "version_normalized": "0.2.0.0",
@@ -3257,45 +3426,39 @@
     },
     {
         "name": "guzzlehttp/guzzle",
-        "version": "7.2.0",
-        "version_normalized": "7.2.0.0",
+        "version": "6.5.5",
+        "version_normalized": "6.5.5.0",
         "source": {
             "type": "git",
             "url": "https://github.com/guzzle/guzzle.git",
-            "reference": "0aa74dfb41ae110835923ef10a9d803a22d50e79"
+            "reference": "9d4290de1cfd701f38099ef7e183b64b4b7b0c5e"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/guzzle/guzzle/zipball/0aa74dfb41ae110835923ef10a9d803a22d50e79",
-            "reference": "0aa74dfb41ae110835923ef10a9d803a22d50e79",
+            "url": "https://api.github.com/repos/guzzle/guzzle/zipball/9d4290de1cfd701f38099ef7e183b64b4b7b0c5e",
+            "reference": "9d4290de1cfd701f38099ef7e183b64b4b7b0c5e",
             "shasum": ""
         },
         "require": {
             "ext-json": "*",
-            "guzzlehttp/promises": "^1.4",
-            "guzzlehttp/psr7": "^1.7",
-            "php": "^7.2.5 || ^8.0",
-            "psr/http-client": "^1.0"
-        },
-        "provide": {
-            "psr/http-client-implementation": "1.0"
+            "guzzlehttp/promises": "^1.0",
+            "guzzlehttp/psr7": "^1.6.1",
+            "php": ">=5.5",
+            "symfony/polyfill-intl-idn": "^1.17.0"
         },
         "require-dev": {
             "ext-curl": "*",
-            "php-http/client-integration-tests": "^3.0",
-            "phpunit/phpunit": "^8.5.5 || ^9.3.5",
+            "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0",
             "psr/log": "^1.1"
         },
         "suggest": {
-            "ext-curl": "Required for CURL handler support",
-            "ext-intl": "Required for Internationalized Domain Name (IDN) support",
             "psr/log": "Required for using the Log middleware"
         },
-        "time": "2020-10-10T11:47:56+00:00",
+        "time": "2020-06-16T21:01:06+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-master": "7.1-dev"
+                "dev-master": "6.5-dev"
             }
         },
         "installation-source": "dist",
@@ -3316,11 +3479,6 @@
                 "name": "Michael Dowling",
                 "email": "mtdowling@gmail.com",
                 "homepage": "https://github.com/mtdowling"
-            },
-            {
-                "name": "Márk Sági-Kazár",
-                "email": "mark.sagikazar@gmail.com",
-                "homepage": "https://sagikazarmark.hu"
             }
         ],
         "description": "Guzzle is a PHP HTTP client library",
@@ -3331,8 +3489,6 @@
             "framework",
             "http",
             "http client",
-            "psr-18",
-            "psr-7",
             "rest",
             "web service"
         ]
@@ -4693,24 +4849,24 @@
     },
     {
         "name": "laminas/laminas-stratigility",
-        "version": "3.2.2",
-        "version_normalized": "3.2.2.0",
+        "version": "3.3.0",
+        "version_normalized": "3.3.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/laminas/laminas-stratigility.git",
-            "reference": "3f88aa174324bc9e6dd55715f401f9f25dbd722c"
+            "reference": "d6336b873fe8f766f84b82164f2a25e4decd6a9a"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/laminas/laminas-stratigility/zipball/3f88aa174324bc9e6dd55715f401f9f25dbd722c",
-            "reference": "3f88aa174324bc9e6dd55715f401f9f25dbd722c",
+            "url": "https://api.github.com/repos/laminas/laminas-stratigility/zipball/d6336b873fe8f766f84b82164f2a25e4decd6a9a",
+            "reference": "d6336b873fe8f766f84b82164f2a25e4decd6a9a",
             "shasum": ""
         },
         "require": {
             "fig/http-message-util": "^1.1",
             "laminas/laminas-escaper": "^2.3",
             "laminas/laminas-zendframework-bridge": "^1.0",
-            "php": "^7.1",
+            "php": "^7.3 || ~8.0.0",
             "psr/http-message": "^1.0",
             "psr/http-server-middleware": "^1.0"
         },
@@ -4724,19 +4880,15 @@
             "laminas/laminas-coding-standard": "~1.0.0",
             "laminas/laminas-diactoros": "^1.7.1",
             "malukenho/docheader": "^0.1.6",
-            "phpunit/phpunit": "^7.0.1"
+            "phpspec/prophecy": "^1.12",
+            "phpspec/prophecy-phpunit": "^2.0",
+            "phpunit/phpunit": "^9.3"
         },
         "suggest": {
             "psr/http-message-implementation": "Please install a psr/http-message-implementation to consume Stratigility; e.g., laminas/laminas-diactoros"
         },
-        "time": "2020-03-29T13:31:02+00:00",
+        "time": "2020-10-20T10:38:04+00:00",
         "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.2.x-dev",
-                "dev-develop": "3.3.x-dev"
-            }
-        },
         "installation-source": "dist",
         "autoload": {
             "files": [
@@ -4765,6 +4917,12 @@
             "middleware",
             "psr-15",
             "psr-7"
+        ],
+        "funding": [
+            {
+                "url": "https://funding.communitybridge.org/projects/laminas-project",
+                "type": "community_bridge"
+            }
         ]
     },
     {
@@ -5831,32 +5989,36 @@
     },
     {
         "name": "paragonie/random_compat",
-        "version": "v9.99.100",
-        "version_normalized": "9.99.100.0",
+        "version": "v2.0.19",
+        "version_normalized": "2.0.19.0",
         "source": {
             "type": "git",
             "url": "https://github.com/paragonie/random_compat.git",
-            "reference": "996434e5492cb4c3edcb9168db6fbb1359ef965a"
+            "reference": "446fc9faa5c2a9ddf65eb7121c0af7e857295241"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/paragonie/random_compat/zipball/996434e5492cb4c3edcb9168db6fbb1359ef965a",
-            "reference": "996434e5492cb4c3edcb9168db6fbb1359ef965a",
+            "url": "https://api.github.com/repos/paragonie/random_compat/zipball/446fc9faa5c2a9ddf65eb7121c0af7e857295241",
+            "reference": "446fc9faa5c2a9ddf65eb7121c0af7e857295241",
             "shasum": ""
         },
         "require": {
-            "php": ">= 7"
+            "php": ">=5.2.0"
         },
         "require-dev": {
-            "phpunit/phpunit": "4.*|5.*",
-            "vimeo/psalm": "^1"
+            "phpunit/phpunit": "4.*|5.*"
         },
         "suggest": {
             "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
         },
-        "time": "2020-10-15T08:29:30+00:00",
+        "time": "2020-10-15T10:06:57+00:00",
         "type": "library",
         "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "lib/random.php"
+            ]
+        },
         "notification-url": "https://packagist.org/downloads/",
         "license": [
             "MIT"
@@ -6382,6 +6544,95 @@
         "description": "A polyfill for getallheaders."
     },
     {
+        "name": "ramsey/uuid",
+        "version": "3.9.3",
+        "version_normalized": "3.9.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ramsey/uuid.git",
+            "reference": "7e1633a6964b48589b142d60542f9ed31bd37a92"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ramsey/uuid/zipball/7e1633a6964b48589b142d60542f9ed31bd37a92",
+            "reference": "7e1633a6964b48589b142d60542f9ed31bd37a92",
+            "shasum": ""
+        },
+        "require": {
+            "ext-json": "*",
+            "paragonie/random_compat": "^1 | ^2 | 9.99.99",
+            "php": "^5.4 | ^7 | ^8",
+            "symfony/polyfill-ctype": "^1.8"
+        },
+        "replace": {
+            "rhumsaa/uuid": "self.version"
+        },
+        "require-dev": {
+            "codeception/aspect-mock": "^1 | ^2",
+            "doctrine/annotations": "^1.2",
+            "goaop/framework": "1.0.0-alpha.2 | ^1 | ^2.1",
+            "jakub-onderka/php-parallel-lint": "^1",
+            "mockery/mockery": "^0.9.11 | ^1",
+            "moontoast/math": "^1.1",
+            "paragonie/random-lib": "^2",
+            "php-mock/php-mock-phpunit": "^0.3 | ^1.1",
+            "phpunit/phpunit": "^4.8 | ^5.4 | ^6.5",
+            "squizlabs/php_codesniffer": "^3.5"
+        },
+        "suggest": {
+            "ext-ctype": "Provides support for PHP Ctype functions",
+            "ext-libsodium": "Provides the PECL libsodium extension for use with the SodiumRandomGenerator",
+            "ext-openssl": "Provides the OpenSSL extension for use with the OpenSslGenerator",
+            "ext-uuid": "Provides the PECL UUID extension for use with the PeclUuidTimeGenerator and PeclUuidRandomGenerator",
+            "moontoast/math": "Provides support for converting UUID to 128-bit integer (in string form).",
+            "paragonie/random-lib": "Provides RandomLib for use with the RandomLibAdapter",
+            "ramsey/uuid-console": "A console application for generating UUIDs with ramsey/uuid",
+            "ramsey/uuid-doctrine": "Allows the use of Ramsey\\Uuid\\Uuid as Doctrine field type."
+        },
+        "time": "2020-02-21T04:36:14+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Ramsey\\Uuid\\": "src/"
+            },
+            "files": [
+                "src/functions.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ben Ramsey",
+                "email": "ben@benramsey.com",
+                "homepage": "https://benramsey.com"
+            },
+            {
+                "name": "Marijn Huizendveld",
+                "email": "marijn.huizendveld@gmail.com"
+            },
+            {
+                "name": "Thibaud Fabre",
+                "email": "thibaud@aztech.io"
+            }
+        ],
+        "description": "Formerly rhumsaa/uuid. A PHP 5.4+ library for generating RFC 4122 version 1, 3, 4, and 5 universally unique identifiers (UUID).",
+        "homepage": "https://github.com/ramsey/uuid",
+        "keywords": [
+            "guid",
+            "identifier",
+            "uuid"
+        ]
+    },
+    {
         "name": "reflar/cookie-consent",
         "version": "0.2.0",
         "version_normalized": "0.2.0.0",
@@ -6589,6 +6840,57 @@
             "media",
             "parser",
             "shortcodes"
+        ]
+    },
+    {
+        "name": "softcreatr/php-mime-detector",
+        "version": "3.0.0",
+        "version_normalized": "3.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/SoftCreatR/php-mime-detector.git",
+            "reference": "682651747adf0196fec007c2afaedc6dd44a941f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/SoftCreatR/php-mime-detector/zipball/682651747adf0196fec007c2afaedc6dd44a941f",
+            "reference": "682651747adf0196fec007c2afaedc6dd44a941f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.1.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~7.0"
+        },
+        "time": "2018-10-29T19:18:29+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "SoftCreatR\\MimeDetector\\": "src/SoftCreatR/MimeDetector"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Sascha Greuel",
+                "email": "sascha@softcreatr.de"
+            },
+            {
+                "name": "Sebastian Zimmer",
+                "email": "morik@softcreatr.de"
+            }
+        ],
+        "description": "Mime Detector Decoder",
+        "homepage": "https://www.softcreatr.com",
+        "keywords": [
+            "Magic Number",
+            "file type",
+            "mime"
         ]
     },
     {
