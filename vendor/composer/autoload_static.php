@@ -175,6 +175,7 @@ class ComposerStaticInitda3736d36b8a9e2f68c5d75e9a898c2e
         array (
             'Franzl\\Middleware\\Whoops\\' => 25,
             'FoF\\UserRequest\\' => 16,
+            'FoF\\UserDirectory\\' => 18,
             'FoF\\UserBio\\' => 12,
             'FoF\\Terms\\' => 10,
             'FoF\\Spamblock\\' => 14,
@@ -562,6 +563,10 @@ class ComposerStaticInitda3736d36b8a9e2f68c5d75e9a898c2e
         'FoF\\UserRequest\\' => 
         array (
             0 => __DIR__ . '/..' . '/fof/username-request/src',
+        ),
+        'FoF\\UserDirectory\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/user-directory/src',
         ),
         'FoF\\UserBio\\' => 
         array (

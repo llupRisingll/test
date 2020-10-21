@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "61d5e316efa916865cced47ea8bd13d0",
+    "content-hash": "4a349343ca87f701e2ec7dbbdca97f7f",
     "packages": [
         {
             "name": "axy/backtrace",
@@ -1074,6 +1074,7 @@
             "keywords": [
                 "Authentication"
             ],
+            "abandoned": "fof/oauth",
             "time": "2020-05-01T11:08:43+00:00"
         },
         {
@@ -1121,6 +1122,7 @@
             "keywords": [
                 "Authentication"
             ],
+            "abandoned": "fof/oauth",
             "time": "2020-05-01T11:08:43+00:00"
         },
         {
@@ -1168,6 +1170,7 @@
             "keywords": [
                 "Authentication"
             ],
+            "abandoned": "fof/oauth",
             "time": "2020-05-01T11:08:44+00:00"
         },
         {
@@ -2904,6 +2907,72 @@
                 "flarum"
             ],
             "time": "2020-06-25T17:09:09+00:00"
+        },
+        {
+            "name": "fof/user-directory",
+            "version": "0.3.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/user-directory.git",
+                "reference": "414069f7839a3b72a41476b9a9f47cb1ce5c0fc2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/user-directory/zipball/414069f7839a3b72a41476b9a9f47cb1ce5c0fc2",
+                "reference": "414069f7839a3b72a41476b9a9f47cb1ce5c0fc2",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.8",
+                "fof/components": ">=0.1.0"
+            },
+            "replace": {
+                "flagrow/user-directory": "*"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "FoF User Directory",
+                    "icon": {
+                        "name": "far fa-address-book",
+                        "backgroundColor": "#e74c3c",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/5682"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FoF\\UserDirectory\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniël Klabbers",
+                    "email": "daniel@klabbers.email",
+                    "homepage": "https://luceos.com/"
+                },
+                {
+                    "name": "Clark Winkelmann",
+                    "email": "clark.winkelmann@gmail.com",
+                    "homepage": "https://clarkwinkelmann.com/"
+                }
+            ],
+            "description": "The permission based public user directory extension for your Flarum forum.",
+            "keywords": [
+                "extension",
+                "flarum",
+                "member list",
+                "user directory",
+                "user list"
+            ],
+            "time": "2020-03-11T02:51:50+00:00"
         },
         {
             "name": "fof/username-request",

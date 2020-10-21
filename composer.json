@@ -73,6 +73,7 @@
         "fof/spamblock": "^0.2.2",
         "fof/terms": "^0.4.3",
         "fof/user-bio": "^0.2.0",
+        "fof/user-directory": "^0.3.4",
         "fof/username-request": "^0.2.0",
         "migratetoflarum/fake-data": "^0.3.2",
         "reflar/cookie-consent": "^0.2.0",

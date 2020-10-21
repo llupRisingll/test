@@ -87,6 +87,7 @@ return array(
     'GuzzleHttp\\' => array($vendorDir . '/guzzlehttp/guzzle/src'),
     'Franzl\\Middleware\\Whoops\\' => array($vendorDir . '/franzl/whoops-middleware/src'),
     'FoF\\UserRequest\\' => array($vendorDir . '/fof/username-request/src'),
+    'FoF\\UserDirectory\\' => array($vendorDir . '/fof/user-directory/src'),
     'FoF\\UserBio\\' => array($vendorDir . '/fof/user-bio/src'),
     'FoF\\Terms\\' => array($vendorDir . '/fof/terms/src'),
     'FoF\\Spamblock\\' => array($vendorDir . '/fof/spamblock/src'),

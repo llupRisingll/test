@@ -1105,7 +1105,8 @@
         "description": "Allow users to log in with Facebook.",
         "keywords": [
             "Authentication"
-        ]
+        ],
+        "abandoned": "fof/oauth"
     },
     {
         "name": "flarum/auth-github",
@@ -1154,7 +1155,8 @@
         "description": "Allow users to log in with GitHub.",
         "keywords": [
             "Authentication"
-        ]
+        ],
+        "abandoned": "fof/oauth"
     },
     {
         "name": "flarum/auth-twitter",
@@ -1203,7 +1205,8 @@
         "description": "Allow users to log in with Twitter.",
         "keywords": [
             "Authentication"
-        ]
+        ],
+        "abandoned": "fof/oauth"
     },
     {
         "name": "flarum/bbcode",
@@ -3002,6 +3005,74 @@
         "keywords": [
             "Friends of Flarum",
             "flarum"
+        ]
+    },
+    {
+        "name": "fof/user-directory",
+        "version": "0.3.4",
+        "version_normalized": "0.3.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/FriendsOfFlarum/user-directory.git",
+            "reference": "414069f7839a3b72a41476b9a9f47cb1ce5c0fc2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/FriendsOfFlarum/user-directory/zipball/414069f7839a3b72a41476b9a9f47cb1ce5c0fc2",
+            "reference": "414069f7839a3b72a41476b9a9f47cb1ce5c0fc2",
+            "shasum": ""
+        },
+        "require": {
+            "flarum/core": "^0.1.0-beta.8",
+            "fof/components": ">=0.1.0"
+        },
+        "replace": {
+            "flagrow/user-directory": "*"
+        },
+        "time": "2020-03-11T02:51:50+00:00",
+        "type": "flarum-extension",
+        "extra": {
+            "flarum-extension": {
+                "title": "FoF User Directory",
+                "icon": {
+                    "name": "far fa-address-book",
+                    "backgroundColor": "#e74c3c",
+                    "color": "#fff"
+                }
+            },
+            "flagrow": {
+                "discuss": "https://discuss.flarum.org/d/5682"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "FoF\\UserDirectory\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Daniël Klabbers",
+                "email": "daniel@klabbers.email",
+                "homepage": "https://luceos.com/"
+            },
+            {
+                "name": "Clark Winkelmann",
+                "email": "clark.winkelmann@gmail.com",
+                "homepage": "https://clarkwinkelmann.com/"
+            }
+        ],
+        "description": "The permission based public user directory extension for your Flarum forum.",
+        "keywords": [
+            "extension",
+            "flarum",
+            "member list",
+            "user directory",
+            "user list"
         ]
     },
     {
