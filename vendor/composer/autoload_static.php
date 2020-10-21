@@ -231,6 +231,10 @@ class ComposerStaticInitda3736d36b8a9e2f68c5d75e9a898c2e
         array (
             'Cron\\' => 5,
         ),
+        'A' => 
+        array (
+            'AntoineFr\\Money\\' => 16,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -747,6 +751,10 @@ class ComposerStaticInitda3736d36b8a9e2f68c5d75e9a898c2e
         'Cron\\' => 
         array (
             0 => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron',
+        ),
+        'AntoineFr\\Money\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/antoinefr/flarum-ext-money/src',
         ),
     );
 

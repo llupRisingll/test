@@ -1022,6 +1022,17 @@ You can find it in Settings > Personal > API Authentication Token.
     'fof-user-directory.admin.permissions.view_user_directory' => 'View user directory',
     'fof-user-directory.admin.settings.title' => 'User Directory Settings',
     'fof-user-directory.admin.settings.link' => 'Add link on homepage for users able to see the directory',
+    'antoinefr-money.admin.settings.title' => 'Settings',
+    'antoinefr-money.admin.settings.moneyforpost' => 'Money given for a new post',
+    'antoinefr-money.admin.settings.moneyfordiscussion' => 'Money given for a new discussion',
+    'antoinefr-money.admin.settings.moneyname' => 'Name of the money (ex: [money] points)',
+    'antoinefr-money.admin.settings.postminimumlength' => 'Post minimum length to get the money (0 to disable)',
+    'antoinefr-money.admin.settings.noshowzero' => 'Do not show if the value is zero',
+    'antoinefr-money.admin.permissions.edit_money_label' => 'Edit money',
+    'antoinefr-money.forum.user_controls.money_button' => 'Edit money',
+    'antoinefr-money.forum.modal.title' => '{username}\'s money',
+    'antoinefr-money.forum.modal.current' => 'Current:',
+    'antoinefr-money.forum.modal.submit_button' => '=> core.ref.save_changes',
   ),
 ));
 

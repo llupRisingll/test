@@ -39,6 +39,7 @@
         "docs": "https://flarum.org/docs/"
     },
     "require": {
+        "antoinefr/flarum-ext-money": "^0.8.0",
         "flagrow/ads": "^0.2.4",
         "flarum/approval": "^0.1.0",
         "flarum/auth-facebook": "^0.1.0",

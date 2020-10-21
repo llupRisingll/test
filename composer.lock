@@ -4,8 +4,45 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4a349343ca87f701e2ec7dbbdca97f7f",
+    "content-hash": "d0c3c518a8708678b461f375aca7a9ab",
     "packages": [
+        {
+            "name": "antoinefr/flarum-ext-money",
+            "version": "v0.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AntoineFr/flarum-ext-money.git",
+                "reference": "fd46a4a9324c5a609fecf481d9debc110d78ebb1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AntoineFr/flarum-ext-money/zipball/fd46a4a9324c5a609fecf481d9debc110d78ebb1",
+                "reference": "fd46a4a9324c5a609fecf481d9debc110d78ebb1",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.8"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Money",
+                    "icon": {
+                        "name": "fas fa-money-bill",
+                        "backgroundColor": "#FFD700",
+                        "color": "#85bb65"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "AntoineFr\\Money\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Give money to your users for different actions.",
+            "time": "2019-12-12T11:56:35+00:00"
+        },
         {
             "name": "axy/backtrace",
             "version": "1.0.7",

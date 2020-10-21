@@ -133,5 +133,6 @@ return array(
     'Doctrine\\Common\\' => array($vendorDir . '/doctrine/event-manager/lib/Doctrine/Common'),
     'Dflydev\\FigCookies\\' => array($vendorDir . '/dflydev/fig-cookies/src/Dflydev/FigCookies'),
     'Cron\\' => array($vendorDir . '/dragonmantank/cron-expression/src/Cron'),
+    'AntoineFr\\Money\\' => array($vendorDir . '/antoinefr/flarum-ext-money/src'),
     '' => array($vendorDir . '/nesbot/carbon/src'),
 );

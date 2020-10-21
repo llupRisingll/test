@@ -148,6 +148,7 @@
       <path value="$PROJECT_DIR$/vendor/fof/user-bio" />
       <path value="$PROJECT_DIR$/vendor/reflar/cookie-consent" />
       <path value="$PROJECT_DIR$/vendor/fof/user-directory" />
+      <path value="$PROJECT_DIR$/vendor/antoinefr/flarum-ext-money" />
     </include_path>
   </component>
 </project>
